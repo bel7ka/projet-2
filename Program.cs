@@ -18,11 +18,11 @@ class Program
         // 3. Initialiser aussi compte2 et compte3
         compte2.SetNumero(2);
         compte2.SetNom("Bob");
-        compte2.SetSolde(300);
+        compte2.SetSolde(500);
 
         compte3.SetNumero(3);
         compte3.SetNom("Charlie");
-        compte3.SetSolde(50);
+        compte3.SetSolde(200);
 
         // 4. Afficher un en-tête puis tous les comptes
         Console.WriteLine("=== LISTE DES COMPTES ===");
