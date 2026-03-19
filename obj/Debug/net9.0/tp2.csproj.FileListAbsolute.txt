@@ -1,0 +1,15 @@
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\bin\Debug\net9.0\tp2.exe
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\bin\Debug\net9.0\tp2.deps.json
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\bin\Debug\net9.0\tp2.runtimeconfig.json
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\bin\Debug\net9.0\tp2.dll
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\bin\Debug\net9.0\tp2.pdb
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\obj\Debug\net9.0\tp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\obj\Debug\net9.0\tp2.AssemblyInfoInputs.cache
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\obj\Debug\net9.0\tp2.AssemblyInfo.cs
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\obj\Debug\net9.0\tp2.csproj.CoreCompileInputs.cache
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\obj\Debug\net9.0\tp2.sourcelink.json
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\obj\Debug\net9.0\tp2.dll
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\obj\Debug\net9.0\refint\tp2.dll
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\obj\Debug\net9.0\tp2.pdb
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\obj\Debug\net9.0\tp2.genruntimeconfig.cache
+C:\Users\bdjelil\OneDrive - Lycée Édouard Gand\Documents\SLAM\Mes Projets\projets C#\projet 2\tp2\obj\Debug\net9.0\ref\tp2.dll

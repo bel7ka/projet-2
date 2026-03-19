@@ -44,7 +44,6 @@ class Compte
             Console.WriteLine("Erreur : le montant à créditer doit être strictement positif.");
             return false;
         }
-
         solde += montant;
         return true;
     }
@@ -57,15 +56,15 @@ class Compte
             return false;
         }
 
-        // Règle finale du sujet : découvert autorisé jusqu'à -200 €
-        if (solde - montant < -200)
-        {
-            Console.WriteLine("Erreur : débit refusé, découvert maximal dépassé.");
-            return false;
-        }
+        // LA RÈGLE : On refuse si le montant demandé est supérieur au solde actuel
+    if (montant > solde)
+    {
+        Console.WriteLine("Erreur : solde insuffisant (aucun découvert autorisé).");
+        return false;
+    }
 
-        solde -= montant;
-        return true;
+    solde -= montant;
+    return true;
     }
 
     public static bool Transferer(Compte source, Compte destination, double montant)

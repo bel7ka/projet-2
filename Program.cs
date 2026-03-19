@@ -5,17 +5,19 @@ class Program
 {
     static void Main()
     {
-        // 1. Créer trois comptes
+        // 1. Créer trois comptes , epargne payant
         Compte compte1 = new Compte();
         Compte compte2 = new Compte();
         Compte compte3 = new Compte();
+        CompteEpargne compteE = new CompteEpargne();
+        ComptePayant compteP = new ComptePayant();
 
         // 2. Initialiser les propriétés de compte1
         compte1.SetNumero(1);
         compte1.SetNom("Alice");
         compte1.SetSolde(1000);
 
-        // 3. Initialiser aussi compte2 et compte3
+        // 3. Initialiser aussi compte2 et autres comptes
         compte2.SetNumero(2);
         compte2.SetNom("Bob");
         compte2.SetSolde(500);
@@ -23,6 +25,19 @@ class Program
         compte3.SetNumero(3);
         compte3.SetNom("Charlie");
         compte3.SetSolde(200);
+
+        compteE.SetNumero(10);
+        compteE.SetNom("Diane");
+        compteE.SetSolde(800);
+        compteE.SetTauxInteret(0.04);
+        compteE.SetDateOuverture("01/09/2024");
+
+        compteP.SetNumero(11);
+        compteP.SetNom("Emma");
+        compteP.SetSolde(600);
+        compteP.SetCommission(2);
+        compteP.SetNombreOperations(0);
+
 
         // 4. Afficher un en-tête puis tous les comptes
         Console.WriteLine("=== LISTE DES COMPTES ===");
@@ -36,21 +51,34 @@ class Program
         // 5. Référence vs copie
         Compte compte4 = compte1;
 
-        // 6. Créditer compte1 de 500 €
+        // 6. Créditer compte1 de 300 €
         Console.WriteLine();
         Console.WriteLine("=== REFERENCE VS COPIE ===");
-        compte1.Crediter(500);
+        compte1.Crediter(300);
 
         Console.WriteLine("Après crédit de 500 sur compte1 :");
         Console.WriteLine("Solde compte1 : " + compte1.GetSolde());
         Console.WriteLine("Solde compte4 : " + compte4.GetSolde());
 
         // 7. Débiter compte4 de 100 €
-        compte4.Debiter(100);
+        //compte4.Debiter(100);
 
-        Console.WriteLine("Après débit de 100 sur compte4 :");
-        Console.WriteLine("Solde compte1 : " + compte1.GetSolde());
-        Console.WriteLine("Solde compte4 : " + compte4.GetSolde());
+        //Console.WriteLine("Après débit de 100 sur compte4 :");
+        //Console.WriteLine("Solde compte1 : " + compte1.GetSolde());
+        //Console.WriteLine("Solde compte4 : " + compte4.GetSolde());
+
+        // 7. Débiter compte2 de 100 €
+        compte2.Debiter(100);
+
+        Console.WriteLine("Après débit de 100 sur compte2 :");
+        Console.WriteLine("Solde compte2 : " + compte2.GetSolde());
+
+        // 7. Débiter compteP de 100 €
+        compteP.Debiter(100);
+
+        Console.WriteLine("Après débit de 100 sur compteP :");
+        Console.WriteLine("Solde compteP : " + compteP.GetSolde());
+
 
         // 8. Observation
         Console.WriteLine();
